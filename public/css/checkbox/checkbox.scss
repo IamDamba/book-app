@@ -1,0 +1,202 @@
+@import "../fonts/fonts";
+@import "../elements/elements";
+
+.checkbox {
+  width: 100%;
+
+  .content {
+    width: 100%;
+
+    .nav-cart {
+      border-bottom: 2px solid #fff;
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+      column-gap: 10px;
+      font-size: 0.8rem;
+      align-items: center;
+      margin-bottom: 50px;
+
+      h1 {
+        color: #fff;
+      }
+      .active {
+        @include textShape(0.8rem);
+      }
+    }
+    @media screen {
+      @media (max-width: 1023px) {
+        .detail {
+          display: grid;
+          grid-gap: 50px;
+
+          .card {
+            width: 100%;
+            max-width: 280px;
+            padding: 10px 30px;
+            background-color: #173e8d;
+            border-radius: 10px;
+            box-shadow: 10px 10px 0px rgba($color: #9fadb9, $alpha: 0.3);
+            margin: auto;
+
+            .logo {
+              text-align: right;
+              margin-bottom: 10px;
+              font-size: 2rem;
+            }
+            .serial,
+            .fullname,
+            .date,
+            .ccv {
+              margin-bottom: 10px;
+
+              h5 {
+                font-size: 0.7rem;
+                margin-bottom: 4px;
+              }
+              p {
+                font-size: 0.6rem;
+              }
+            }
+            .date-ccv {
+              display: flex;
+              justify-content: space-between;
+              width: 100px;
+            }
+          }
+          form {
+            width: 100%;
+            max-width: 316px;
+            margin: auto;
+
+            .title,
+            .fullname,
+            .serialNumber,
+            .date-ccv{
+              width: 100%;
+              margin-bottom: 20px;
+
+              input {
+                width: 100%;
+                height: 30px;
+                padding: 0 10px;
+                outline: 0;
+                outline-style: none;
+              }
+            }.title{
+              font-size: .6rem;
+              margin-bottom: 30px;
+            }.date-ccv{
+              display: flex;
+              justify-content: space-between;
+              column-gap: 30px;
+            }.button{
+              display: grid;
+              align-items: center;
+              justify-content: center;
+
+              .check{
+                @include buttonShape;
+                border: none;
+                margin-top: 30px;
+                margin-bottom: 20px;
+              }.back{
+                @include buttonShape;
+                border: .12rem solid #fff;
+                color: #fff;
+                background-color: transparent;
+                box-shadow: inset 0 0 8px rgba($color: #fff, $alpha: .3);
+              }
+            }
+          }
+        }
+        @media (min-width: 1024px) {
+          .detail {
+            display: grid;
+            grid-gap: 50px;
+  
+            .card {
+              width: 100%;
+              max-width: 280px;
+              padding: 10px 30px;
+              background-color: #173e8d;
+              border-radius: 10px;
+              box-shadow: 10px 10px 0px rgba($color: #9fadb9, $alpha: 0.3);
+              margin: auto;
+  
+              .logo {
+                text-align: right;
+                margin-bottom: 10px;
+                font-size: 2rem;
+              }
+              .serial,
+              .fullname,
+              .date,
+              .ccv {
+                margin-bottom: 10px;
+  
+                h5 {
+                  font-size: 0.7rem;
+                  margin-bottom: 4px;
+                }
+                p {
+                  font-size: 0.6rem;
+                }
+              }
+              .date-ccv {
+                display: flex;
+                justify-content: space-between;
+                width: 100px;
+              }
+            }
+            form {
+              width: 100%;
+              max-width: 316px;
+              margin: auto;
+  
+              .title,
+              .fullname,
+              .serialNumber,
+              .date-ccv{
+                width: 100%;
+                margin-bottom: 20px;
+  
+                input {
+                  width: 100%;
+                  height: 30px;
+                  padding: 0 10px;
+                  outline: 0;
+                  outline-style: none;
+                }
+              }.title{
+                font-size: .6rem;
+                margin-bottom: 30px;
+              }.date-ccv{
+                display: flex;
+                justify-content: space-between;
+                column-gap: 30px;
+              }.button{
+                display: grid;
+                align-items: center;
+                justify-content: center;
+  
+                .check{
+                  @include buttonShape;
+                  border: none;
+                  margin-top: 30px;
+                  margin-bottom: 20px;
+                }.back{
+                  @include buttonShape;
+                  border: .12rem solid #fff;
+                  color: #fff;
+                  background-color: transparent;
+                  box-shadow: inset 0 0 8px rgba($color: #fff, $alpha: .3);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+.checkbox {
+  width: 100%;
+}
+
+.checkbox .content {
+  width: 100%;
+}
+
+.checkbox .content .nav-cart {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  font-size: 0.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.checkbox .content .nav-cart h1 {
+  color: #fff;
+}
+
+.checkbox .content .nav-cart .active {
+  font-size: 0.8rem;
+  color: #f2c872;
+  text-shadow: 0 0 8px rgba(242, 200, 114, 0.5);
+}
+
+@media screen and (max-width: 1023px) {
+  .checkbox .content .detail {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 50px;
+  }
+  .checkbox .content .detail .card {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 30px;
+    background-color: #173e8d;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 0px rgba(159, 173, 185, 0.3);
+            box-shadow: 10px 10px 0px rgba(159, 173, 185, 0.3);
+    margin: auto;
+  }
+  .checkbox .content .detail .card .logo {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .checkbox .content .detail .card .serial,
+  .checkbox .content .detail .card .fullname,
+  .checkbox .content .detail .card .date,
+  .checkbox .content .detail .card .ccv {
+    margin-bottom: 10px;
+  }
+  .checkbox .content .detail .card .serial h5,
+  .checkbox .content .detail .card .fullname h5,
+  .checkbox .content .detail .card .date h5,
+  .checkbox .content .detail .card .ccv h5 {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+  .checkbox .content .detail .card .serial p,
+  .checkbox .content .detail .card .fullname p,
+  .checkbox .content .detail .card .date p,
+  .checkbox .content .detail .card .ccv p {
+    font-size: 0.6rem;
+  }
+  .checkbox .content .detail .card .date-ccv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100px;
+  }
+  .checkbox .content .detail form {
+    width: 100%;
+    max-width: 316px;
+    margin: auto;
+  }
+  .checkbox .content .detail form .title,
+  .checkbox .content .detail form .fullname,
+  .checkbox .content .detail form .serialNumber,
+  .checkbox .content .detail form .date-ccv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .checkbox .content .detail form .title input,
+  .checkbox .content .detail form .fullname input,
+  .checkbox .content .detail form .serialNumber input,
+  .checkbox .content .detail form .date-ccv input {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    outline: 0;
+    outline-style: none;
+  }
+  .checkbox .content .detail form .title {
+    font-size: .6rem;
+    margin-bottom: 30px;
+  }
+  .checkbox .content .detail form .date-ccv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .checkbox .content .detail form .button {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .checkbox .content .detail form .button .check {
+    color: #0f0f0f;
+    background-color: #f2c872;
+    -webkit-box-shadow: 0 3px 8px #f2c872;
+            box-shadow: 0 3px 8px #f2c872;
+    padding: 10px 50px;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .checkbox .content .detail form .button .back {
+    color: #0f0f0f;
+    background-color: #f2c872;
+    -webkit-box-shadow: 0 3px 8px #f2c872;
+            box-shadow: 0 3px 8px #f2c872;
+    padding: 10px 50px;
+    font-weight: 700;
+    border: .12rem solid #fff;
+    color: #fff;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.3);
+            box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 1024px) {
+  .checkbox .content .detail {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 50px;
+  }
+  .checkbox .content .detail .card {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 30px;
+    background-color: #173e8d;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 0px rgba(159, 173, 185, 0.3);
+            box-shadow: 10px 10px 0px rgba(159, 173, 185, 0.3);
+    margin: auto;
+  }
+  .checkbox .content .detail .card .logo {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .checkbox .content .detail .card .serial,
+  .checkbox .content .detail .card .fullname,
+  .checkbox .content .detail .card .date,
+  .checkbox .content .detail .card .ccv {
+    margin-bottom: 10px;
+  }
+  .checkbox .content .detail .card .serial h5,
+  .checkbox .content .detail .card .fullname h5,
+  .checkbox .content .detail .card .date h5,
+  .checkbox .content .detail .card .ccv h5 {
+    font-size: 0.7rem;
+    margin-bottom: 4px;
+  }
+  .checkbox .content .detail .card .serial p,
+  .checkbox .content .detail .card .fullname p,
+  .checkbox .content .detail .card .date p,
+  .checkbox .content .detail .card .ccv p {
+    font-size: 0.6rem;
+  }
+  .checkbox .content .detail .card .date-ccv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100px;
+  }
+  .checkbox .content .detail form {
+    width: 100%;
+    max-width: 316px;
+    margin: auto;
+  }
+  .checkbox .content .detail form .title,
+  .checkbox .content .detail form .fullname,
+  .checkbox .content .detail form .serialNumber,
+  .checkbox .content .detail form .date-ccv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .checkbox .content .detail form .title input,
+  .checkbox .content .detail form .fullname input,
+  .checkbox .content .detail form .serialNumber input,
+  .checkbox .content .detail form .date-ccv input {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    outline: 0;
+    outline-style: none;
+  }
+  .checkbox .content .detail form .title {
+    font-size: .6rem;
+    margin-bottom: 30px;
+  }
+  .checkbox .content .detail form .date-ccv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+  }
+  .checkbox .content .detail form .button {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .checkbox .content .detail form .button .check {
+    color: #0f0f0f;
+    background-color: #f2c872;
+    -webkit-box-shadow: 0 3px 8px #f2c872;
+            box-shadow: 0 3px 8px #f2c872;
+    padding: 10px 50px;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .checkbox .content .detail form .button .back {
+    color: #0f0f0f;
+    background-color: #f2c872;
+    -webkit-box-shadow: 0 3px 8px #f2c872;
+            box-shadow: 0 3px 8px #f2c872;
+    padding: 10px 50px;
+    font-weight: 700;
+    border: .12rem solid #fff;
+    color: #fff;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.3);
+            box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.3);
+  }
+}
+/*# sourceMappingURL=checkbox.css.map */

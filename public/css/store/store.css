@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+.store {
+  width: 100%;
+}
+
+.store .content {
+  width: 100%;
+}
+
+.store .content .list .list-header {
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 30px;
+}
+
+.store .content .list .list-body {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+}
+
+.store .content .list .list-body .items {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-columns: (minmax(450px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  margin-bottom: 50px;
+}
+
+.store .content .list .list-body .items .item {
+  display: block;
+  width: 260px;
+  margin-bottom: 30px;
+}
+
+.store .content .list .list-body .items .item .img {
+  width: 260px;
+  height: 260px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.store .content .list .list-body .items .item .img img {
+  width: 160px;
+  height: 190px;
+}
+
+.store .content .list .list-body .items .item .text {
+  color: #fff;
+}
+
+.store .content .list .list-body .items .item .text h4 {
+  margin-bottom: 5px;
+}
+
+.store .content .list .list-body .items .item:hover .img {
+  -webkit-box-shadow: 0 3px 8px #fff;
+          box-shadow: 0 3px 8px #fff;
+}
+
+.store .content .list .list-body .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+}
+
+.store .content .list .list-body .pagination a {
+  color: #fff;
+}
+
+.store .content .list .list-body .pagination .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30px;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.store .content .list .list-body .pagination .number .active {
+  font-size: 1rem;
+  color: #f2c872;
+  text-shadow: 0 0 8px rgba(242, 200, 114, 0.5);
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=store.css.map */

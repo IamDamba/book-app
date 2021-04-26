@@ -1,0 +1,31 @@
+@mixin buttonShape {
+  color: $color-black;
+  background-color: $color-yellow;
+  box-shadow: 0 3px 8px $color-yellow;
+  padding: 10px 50px;
+  font-weight: 700;
+}
+
+@mixin imageShape ($width, $height){
+  width: $width;
+  height: $height;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+@mixin titleShape($fontSize) {
+  font-size: $fontSize;
+  color: $color-yellow;
+  text-shadow: 0 0 8px rgba($color: $color-yellow, $alpha: 0.5);
+  margin-bottom: 20px;
+}
+
+@mixin textShape($fontSize) {
+  font-size: $fontSize;
+  color: $color-yellow;
+  text-shadow: 0 0 8px rgba($color: $color-yellow, $alpha: 0.5);
+}

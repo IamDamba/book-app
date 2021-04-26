@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93.979" height="20.494" viewBox="0 0 93.979 20.494">
+  <g id="logo" transform="translate(0)">
+    <text id="MYBOOK" transform="translate(58.979 16)" fill="#fff" font-size="14" font-family="Montserrat-Black, Montserrat" font-weight="800"><tspan x="-34.286" y="0">MYBOOK</tspan></text>
+    <g id="ic_book_24px">
+      <path id="Tracé_2" data-name="Tracé 2" d="M18.346,2H6.049A2.055,2.055,0,0,0,4,4.049v16.4a2.055,2.055,0,0,0,2.049,2.049h12.3A2.055,2.055,0,0,0,20.4,20.445V4.049A2.055,2.055,0,0,0,18.346,2ZM6.049,4.049h5.124v8.2L8.611,10.71,6.049,12.247Z" transform="translate(-4 -2)" fill="#fafafa"/>
+    </g>
+  </g>
+</svg>

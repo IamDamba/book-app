@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+.home {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .home .content .img {
+    text-align: center;
+    width: 100%;
+    max-width: 530px;
+  }
+  .home .content .img img {
+    width: 100%;
+  }
+  .home .content .text {
+    text-align: center;
+    padding-top: 30px;
+    max-width: 530px;
+  }
+  .home .content .text h1 {
+    font-size: 3rem;
+    color: #f2c872;
+    text-shadow: 0 0 8px rgba(242, 200, 114, 0.5);
+    margin-bottom: 20px;
+  }
+  .home .content .text p {
+    margin-bottom: 50px;
+  }
+  .home .content .text .btn {
+    color: #0f0f0f;
+    background-color: #f2c872;
+    -webkit-box-shadow: 0 3px 8px #f2c872;
+            box-shadow: 0 3px 8px #f2c872;
+    padding: 10px 50px;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    -webkit-column-gap: 50px;
+            column-gap: 50px;
+  }
+  .home .content .img {
+    text-align: center;
+    width: 100%;
+    max-width: 530px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .home .content .img img {
+    width: 100%;
+  }
+  .home .content .text {
+    text-align: justify;
+    max-width: 450px;
+  }
+  .home .content .text h1 {
+    font-size: 3rem;
+    color: #f2c872;
+    text-shadow: 0 0 8px rgba(242, 200, 114, 0.5);
+    margin-bottom: 20px;
+  }
+  .home .content .text p {
+    margin-bottom: 50px;
+  }
+  .home .content .text .btn {
+    color: #0f0f0f;
+    background-color: #f2c872;
+    -webkit-box-shadow: 0 3px 8px #f2c872;
+            box-shadow: 0 3px 8px #f2c872;
+    padding: 10px 50px;
+    font-weight: 700;
+  }
+}
+/*# sourceMappingURL=home.css.map */

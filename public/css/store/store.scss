@@ -1,0 +1,77 @@
+@import "../fonts/fonts";
+@import "../elements/elements";
+
+.store {
+  width: 100%;
+
+  .content {
+    width: 100%;
+
+    .list {
+      .list-header {
+        width: 100%;
+        border-bottom: 2px solid #fff;
+        margin-bottom: 30px;
+      }
+      .list-body {
+        display: grid;
+        margin: auto;
+
+
+        .items {
+          width: 100%;
+          display: grid;
+          justify-items: center;
+          justify-self: center;
+          grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+          margin-bottom: 50px;
+
+          .item {
+            display: block;
+            width: 260px;
+            margin-bottom: 30px;
+
+            .img {
+              @include imageShape;
+              transition: all 0.3s;
+
+              img {
+                width: 160px;
+                height: 190px;
+              }
+            }
+            .text {
+              color: #fff;
+
+              h4 {
+                margin-bottom: 5px;
+              }
+            }
+            &:hover {
+              .img {
+                box-shadow: 0 3px 8px #fff;
+              }
+            }
+          }
+        }
+        .pagination {
+          display: flex;
+          justify-self: center;
+
+          a {
+            color: #fff;
+          }
+          .number {
+            display: flex;
+            padding: 0 30px;
+            column-gap: 10px;
+
+            .active {
+              @include titleShape(1rem);
+            }
+          }
+        }
+      }
+    }
+  }
+}
